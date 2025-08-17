@@ -67,7 +67,12 @@
     <button onclick="startCelebration()">Click to Celebrate 🎶</button>
   </div>
 
-  <audio id="song" src="https://music.youtube.com/watch?v=2e_i4JuorYk&si=q0VGWG0FVZXf7Yj3"></audio>
+  <!-- Replace the audio tag with this -->
+<div id="player" style="display:none;">
+  <iframe width="0" height="0" 
+    src="https://www.youtube.com/embed/2e_i4JuorYk?autoplay=1&loop=1&playlist=2e_i4JuorYk" 
+    frameborder="0" allow="autoplay"></iframe>
+</div>
 
   <script>
     function startCelebration() {
@@ -88,5 +93,6 @@
   </script>
 </body>
 </html>
+
 
 
